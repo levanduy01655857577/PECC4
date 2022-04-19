@@ -2354,8 +2354,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 
   .wrapperTitleSections.aboutUs h4 {
-    font-size: 20px;
-    line-height: 28px;
+    font-size: 36px;
+    line-height: 40px;
     font-weight: 500;
   }
 
@@ -2732,6 +2732,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 @media only screen and (max-width: 739px) {
   .wrapperTitleSections.projects h4 {
     font-size: 32px !important;
+    margin-bottom: 15px;
   }
   .wrapperTitleSections.shareholder h4 {
     font-size: 32px !important;
@@ -2819,6 +2820,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   .itemStatistics {
     text-align: center;
     margin-top: 15px;
+  }
+}
+@media (max-width: 991px) {
+  .wrapperStatistics {
+    padding-bottom: 40px;
   }
 }
 @media (max-width: 768px) {
@@ -3212,7 +3218,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   background-attachment: fixed;
   position: relative;
   overflow: hidden;
-  padding: 40px 0;
+  padding: 40px 0 0;
 }
 .wrapperLatestNews.inNews:before {
   content: "";

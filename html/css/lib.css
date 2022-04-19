@@ -13563,7 +13563,7 @@ textarea.form-control-lg {
 /* Mobile & tablet: width <1024px */
 @media only screen and (max-width: 1023px) {
   .wrapperLinkSocialsInRight {
-    bottom: 100px;
+    bottom: 80px;
   }
 }
 .wrapperButtonScrollTop {
@@ -13902,12 +13902,51 @@ h6 {
 
 @media (max-width: 1199.98px) {
   .wrapperTitleSections h2 {
-    font-size: 24px !important;
+    font-size: 18px !important;
     margin-bottom: 15px;
-    margin-top: 15px;
+    margin-top: 0;
     height: 48px;
   }
 }
+@media (max-width: 991px) {
+  .wrapperTitleSections h2 {
+    margin-top: 0 !important;
+  }
+}
+/* Mobie: width < 740px */
+@media only screen and (max-width: 739px) {
+  * {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  h4 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .wrapperTitleSections h4 {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .wrapperTitleSections h2 {
+    margin-top: 15px !important;
+  }
+}
+/* Mobile & tablet: width <1024px */
+@media only screen and (max-width: 1023px) {
+  .rsPaddingInline {
+    padding-inline: 0 !important;
+  }
+
+  .wrapperTitleSections h2 {
+    height: auto;
+  }
+}
+body.hidden {
+  overflow: hidden;
+}
+
 @-webkit-keyframes pulse {
   from {
     width: 100%;
@@ -13925,6 +13964,7 @@ h6 {
     opacity: 0;
   }
 }
+
 @keyframes pulse {
   from {
     width: 100%;
@@ -14126,35 +14166,4 @@ h6 {
 }
 .rsPaddingInline--pc {
   padding-inline: 0 !important;
-}
-
-/* Mobie: width < 740px */
-@media only screen and (max-width: 739px) {
-  * {
-    font-size: 14px;
-    line-height: 20px;
-  }
-
-  h4 {
-    font-size: 24px;
-    line-height: 32px;
-  }
-
-  .wrapperTitleSections h4 {
-    font-size: 18px;
-    line-height: 28px;
-  }
-}
-/* Mobile & tablet: width <1024px */
-@media only screen and (max-width: 1023px) {
-  .rsPaddingInline {
-    padding-inline: 0 !important;
-  }
-
-  .wrapperTitleSections h2 {
-    height: auto;
-  }
-}
-body.hidden {
-  overflow: hidden;
 }
